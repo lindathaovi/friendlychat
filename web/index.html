@@ -108,9 +108,19 @@
 </div>
 
 <!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+
+<script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBjlvX0iVJNDB_lSMNsvKalWQmNvIwusc0",
+    authDomain: "friendlychat-563ba.firebaseapp.com",
+    databaseURL: "https://friendlychat-563ba.firebaseio.com",
+    storageBucket: "friendlychat-563ba.appspot.com",
+    messagingSenderId: "1076560083180"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <script src="scripts/main.js"></script>
 </body>
